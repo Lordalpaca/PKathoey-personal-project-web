@@ -1,4 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MainLayout from "../layout/MainLayout";
+import LandingPage from "../pages/LandingPage";
+import RegisterPage from "../pages/RegisterPage";
+import LoginPage from "../pages/LoginPage";
 
 function AppRouter() {
   return (
